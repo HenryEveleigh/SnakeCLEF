@@ -16,7 +16,7 @@ Each instance corresponds to one photograph of a snake.
 ### How many instances of each type are in total?
 182261 total instances, with the number of instances of each species varying from very small numbers to 2079.
 ### Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g., geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).
-The instances of the dataset are taken from data uploaded to the iNaturalist and Herpmapper websites. The method by which the dataset was sampled from the original data is unknown to the author of the datasheet.
+The instances of the dataset are taken from data uploaded to the iNaturalist and HerpMapper websites. The method by which the dataset was sampled from the original data is unknown to the author of the datasheet.
 ### What does each instance consist of? Raw data? Unprocessed? Text, images?
 Each instance consists of the photograph itself along with information including the species of the snake and which country it was photographed in.
 ### Are there any labels to the data?
