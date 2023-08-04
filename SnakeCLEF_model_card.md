@@ -12,7 +12,9 @@ The algorithm uses three hyperparameters: the learning rate and momentum of the 
 
 ## Performance
 
-A typical performance for the model is predicting about 6.5% of snakes correctly on the validation set, with the SnakeCLEF loss function divided by the amount of training data ("score") around 1.65. By comparison, random guessing tends to predict less than 0.1% of snakes correctly and give a score around 1.77. The algorithm also outperforms guessing the most common species for all instances. Occasionally, as a result of the stochastic training process, performance can be significantly worse. 
+A typical performance for the model is predicting about 6.5% of snakes correctly on the validation set, with the SnakeCLEF loss function divided by the amount of training data ("score") around 1.65. By comparison, random guessing tends to predict less than 0.1% of snakes correctly and to give a score around 1.77. The algorithm also outperforms guessing the most common species for all instances. Occasionally, as a result of the stochastic training process, performance can be significantly worse.
+
+It should also be noted that although the algorithm uses hyperparameter optimisation, the changes in hyperparameters did not appear to substantially alter the score.
 
 ## Limitations
 
